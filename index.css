@@ -2,5 +2,217 @@
 
 body{
     background-color: #f6f6f6;
-    font-family: NOTOSANS;
-    padding-top: 50px;}
+    font-family: Helvetica;
+    color: #636363;
+}
+
+.wrapper{
+    max-width: 100%;
+}
+
+/* --------------------nav bar-------------------- */
+header{ 
+    background-color:#FE9F9D;
+    max-width: 100%;
+    height: 100px;
+    padding: 20px 120px;
+    display: flex;
+    font-size: 24px;      
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header ul{
+    display: flex;
+    margin: right;
+    align-items: center;
+    margin-left: auto;
+}
+
+header ul li{
+    padding: 0 15px;
+    list-style: none;
+    text-align: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li i{
+    color: white;
+}
+
+/* --------------------top-------------------- */
+
+.top{
+    margin: 120px;
+    display: flex;
+    /* background-color: gainsboro; */
+    padding: 2% 0;
+
+}
+.top h1{
+    color: #636363;
+    font-size: 80px;
+    font-weight:bold;
+}
+.top h2{
+    color: #636363;
+    font-size: 60px;
+}
+.top a{
+    display: block;
+    width: 175px;
+    height: 55px;
+    background-color: #FE9F9D;
+    border-radius: 50px;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.8;
+}
+.top p {
+    color: #ABA8A8;
+    
+    padding: 40px 0;
+}
+.top img{
+    width: 50%;
+    border-radius: 50px;
+    padding:20px ;
+    margin-left: auto;
+}
+
+/*--------------------認養三步驟-----------------------*/
+
+
+/* 認養步驟 */
+.step{
+    color: #636363;
+    margin: 120px;
+    max-width: 1200px;
+    padding: 100px;
+}
+
+.step-box-img{
+    width: 40%;
+
+}
+
+.step-box .img-left .step-box-img{
+    order: -1;
+}
+
+.step-box-text{
+    width: 60%;
+    display: ruby;
+    padding-right: 50px;
+}
+
+.step h1{
+    font-size: 64px;
+    font-weight:bold;
+    text-align: center;
+    padding: 5% 0;
+}
+.step h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.step-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.step-box img{
+    max-width: 100%;
+    height: auto;
+}
+
+.step-box-text h3{
+    background-color: #F7CAC9;
+    width: 84px;
+    height: 84px;
+    font-size: 72px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.step-box-text h4{
+    font-size: 40px;
+    font-weight:bold;
+    padding-left: 24px;
+}
+
+.step-box-text p{
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+/*--------------------尋找你的理想夥伴-----------------------*/
+
+.sectionpets{
+    background-color: #FFFFF3;
+    margin: 0 -120px; 
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50px;
+    padding: 100px;
+}
+.sectionpets h1{
+    /* padding: 5% 0; */
+    font-size: 64px;
+    text-align: center;
+    color: #636363;
+}
+
+.sectionpets h2{
+    font-size: 36px;
+    /* padding: 5% 0; */
+    text-align: center;
+    color: #ABA8A8;
+}
+
+.sectionpets ul{
+    display: flex;
+    width: 1000px;
+    height: 53px;
+
+}
+
+.sectionpets .nav-underline .nav-item{
+    width: 48%;
+    text-align: center;
+}
+
+/*--------------------狗派-----------------------*/
+
+.dogsul li{
+    padding: 0 40px;
+}
+
+/*--------------------貓派-----------------------*/
+
+
+
+/*--------------------毛孩學堂-----------------------*/
+
+
+
+/*--------------------社群-----------------------*/
+
+
+
+/*--------------------footer-----------------------*/
